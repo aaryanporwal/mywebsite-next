@@ -1,0 +1,36 @@
+.container {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background: #272822;
+  color: #f8f8f2;
+}
+
+#signature {
+  stroke-dasharray: 791;
+  stroke-dashoffset: 791;
+  animation: sign 4s ease;
+  animation-fill-mode: forwards;
+}
+
+#arrow {
+  stroke-dasharray: 829;
+  stroke-dashoffset: 829;
+  animation: sign2 2s ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3.8s;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes sign2 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

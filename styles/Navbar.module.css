@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* .header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header ul {
+  text-align: right;
+  margin-top: 0;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header ul li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  padding: 1em;
+  text-decoration-style: double;
+}
+
+.header ul li a:hover {
+  background-color: grey;
+  -webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+} */
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+
+.header div a:first-child {
+  margin-right: auto;
+}
+
+.header div a {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+  color: inherit;
+  text-underline-offset: 5px;
+}
+
+.header span {
+  padding: 0;
+}
+.header div a:hover {
+  background-color: grey;
+  -webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+}
